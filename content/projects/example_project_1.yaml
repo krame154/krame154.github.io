@@ -5,43 +5,38 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Optimal Nap Spot Prediction Across Campus"
+
+title: "Fast Food Unhealthiness vs Popularity Analysis"
 
 short_summary: >
-  Built a model to identify the best nap locations on MSU's campus based
-  on sunlight exposure, foot traffic, grass quality, and proximity to
-  food smells. Findings have been peer-reviewed by three other dogs and
-  were described as "life-changing" and "very good."
+  Analyzed whether more unhealthy fast food menus are associated with higher popularity.
+  Combined nutritional data with sales and store metrics to explore how health and business
+  success relate across major U.S. fast food chains.
 
 tech_stack:
   - Python
-  - scikit-learn
   - pandas
   - matplotlib
-  - Jupyter Notebooks
+  - data visualization
 
 problem_statement: >
-  Finding a good nap spot is harder than it looks. Campus is large,
-  conditions change throughout the day, and the best patches of sun
-  move. A mascot operating on intuition alone wastes valuable resting
-  time — a problem that affects productivity, morale, and tail-wagging
-  rates across the entire campus community.
+  Fast food is widely consumed, but it is unclear whether unhealthier menus actually
+  drive greater popularity. Many consumers choose based on convenience and branding
+  rather than nutrition. This project investigates whether chains with higher calorie,
+  fat, and sodium content tend to generate more revenue and market presence.
 
 approach: >
-  Collected location data across 47 candidate nap sites over a full
-  academic semester. Features included average daily sunlight (hours),
-  grass softness score (1–10, assessed manually), nearby food-cart
-  proximity, and pedestrian traffic by hour. Trained a gradient boosting
-  classifier to predict a site's "nap quality" rating and used SHAP
-  values to explain which features mattered most.
+  Merged two datasets: one containing nutritional information (calories, sugar, saturated fat,
+  trans fat, sodium) and another with business metrics (systemwide sales, average sales per unit,
+  total store count). Created a custom "unhealthy score" based on nutritional values and used
+  data visualizations to compare this score with popularity indicators across selected chains.
 
 results_impact: >
-  The model achieved 89% accuracy on held-out test sites. Sunlight
-  duration and grass softness were the top two predictive features,
-  while proximity to the student union food court provided a meaningful
-  but secondary boost. A ranked list of top-10 nap sites was distributed
-  to the campus dog community and has since been downloaded 847 times.
+  The analysis showed that there is no perfect correlation between unhealthiness and popularity,
+  but many high-performing chains have moderately high unhealthy scores. McDonald's had the
+  highest sales without being the most unhealthy, suggesting that branding, accessibility,
+  and pricing also play significant roles in success. This highlights the complexity of
+  consumer behavior beyond just nutrition.
 
-repo_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor"
-notebook_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb"
+repo_url: "https://github.com/krame154/YOUR-REPO"
 image_path: "img/placeholder_project_1.png"
