@@ -3,50 +3,8 @@
    To create your own theme, copy this file to a new name
    (e.g. "ocean.css") and change the values below.
    Then set  theme: ocean  in portfolio_config.yaml.
-   ============================================================ */
+   ============================================================ 
 
-body {
-  background-color: #f8f9fa;
-  color: #212529;
-}
-
-a {
-  color: #0d6efd;
-}
-
-/* Header */
-.site-header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #dee2e6;
-}
-
-.header-name {
-  color: #212529;
-}
-
-.header-tagline {
-  color: #495057;
-}
-
-.site-nav a {
-  color: #495057;
-}
-
-.site-nav a:hover {
-  color: #0d6efd;
-}
-
-/* Section headings */
-.section h2 {
-  color: #212529;
-  border-color: #0d6efd;
-}
-
-/* Project card */
-.project-card {
-  background-color: #ffffff;
-  border: 1px solid #dee2e6;
-/* Pink theme */
 
 body {
   background-color: #fff0f6;
@@ -60,7 +18,7 @@ a {
 /* Header */
 .site-header {
   background-color: #ffffff;
-  border-bottom: 1px solid #f9a8d4;
+  border-bottom: 2px solid #f472b6;
 }
 
 .header-name {
@@ -76,13 +34,17 @@ a {
   color: #db2777;
 }
 
-/* Sections */
-.section h2 {
+.site-nav a:hover {
   color: #be185d;
-  border-bottom-color: #f472b6;
 }
 
-/* Cards */
+/* Section headings */
+.section h2 {
+  color: #be185d;
+  border-color: #f472b6;
+}
+
+/* Project card */
 .project-card {
   background-color: #ffffff;
   border: 1px solid #f9a8d4;
@@ -92,78 +54,46 @@ a {
   color: #be185d;
 }
 
-.project-summary,
-.project-details {
+.project-summary {
   color: #3b2638;
 }
 
-/* Badges */
+/* Tech badges */
 .tech-badge {
   background-color: #fce7f3;
   color: #9d174d;
   border: 1px solid #f9a8d4;
 }
 
-/* Buttons */
-.btn {
-  background-color: #db2777;
-  color: #ffffff;
-}
-
-.btn:hover {
-  background-color: #be185d;
-}
-
-/* Footer */
-.site-footer {
-  background-color: #ffffff;
-  color: #831843;
-  border-top: 1px solid #f9a8d4;
-}}
-
-.project-title {
-  color: #212529;
-}
-
-.project-summary {
-  color: #495057;
-}
-
-/* Tech badges */
-.tech-badge {
-  background-color: #e7f1ff;
-  color: #0d6efd;
-}
-
 /* Details */
 .project-details {
-  color: #495057;
+  color: #3b2638;
 }
 
 .detail-block h4 {
-  color: #6c757d;
+  color: #be185d;
 }
 
 /* Buttons */
 .btn-repo {
-  background-color: #0d6efd;
+  background-color: #db2777;
   color: #ffffff;
 }
 
 .btn-notebook {
-  background-color: #f1f3f5;
-  color: #212529;
-  border: 1px solid #ced4da;
+  background-color: #fce7f3;
+  color: #9d174d;
+  border: 1px solid #f9a8d4;
 }
 
 /* Contact */
 .contact-list a {
-  color: #0d6efd;
+  color: #db2777;
 }
 
 /* Footer */
 .site-footer {
   background-color: #ffffff;
-  border-top: 1px solid #dee2e6;
-  color: #6c757d;
+  border-top: 2px solid #f472b6;
+  color: #831843;
 }
