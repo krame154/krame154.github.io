@@ -33,6 +33,11 @@ results_impact: >
   Successfully demonstrated the use of AWS tools to build a scalable data pipeline. The project highlights
   how large datasets can be efficiently processed and analyzed in the cloud, and how machine learning workflows
   can be integrated into that pipeline. This reflects real-world data engineering and cloud computing practices.
+  
+  AI Assitace : >
+  ChatGPT was used to help debug technical issues and clarify concepts related to AWS SageMaker,
+  including data formatting requirements, feature dimension alignment, and Batch Transform workflows. All final
+  implementation, testing, and interpretation of results were completed independently.
 
 repo_url: "https://github.com/krame154/aws-nyc311-krame154.git"
 image_path: "img/placeholder_project_2.png"
