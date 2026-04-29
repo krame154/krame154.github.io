@@ -12,12 +12,20 @@
 }
 
 body {
+<<<<<<< HEAD
   min-height: 100vh;
   font-family: Arial, sans-serif;
 
   background: linear-gradient(135deg, #ffe4ec, #ffd6e7);
 
+=======
+ 
+   min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+>>>>>>> d5fbf555032ae4e32b47d19edfa687f8af4e32d1
 }
+
 
 a {
   text-decoration: none;

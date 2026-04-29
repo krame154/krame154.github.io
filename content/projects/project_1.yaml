@@ -7,7 +7,7 @@
 
 
 title: "Fast Food Unhealthiness vs Popularity Analysis"
-
+image_path: "img/fastfood.png"
 short_summary: >
   Analyzed whether more unhealthy fast food menus are associated with higher popularity.
   Combined nutritional data with sales and store metrics to explore how health and business
@@ -38,5 +38,5 @@ results_impact: >
   and pricing also play significant roles in success. This highlights the complexity of
   consumer behavior beyond just nutrition.
 
-repo_url: "https://github.com/krame154/YOUR-REPO"
+repo_url: "https://github.com/krame154/fastfoodproject.git"
 image_path: "img/placeholder_project_1.png"

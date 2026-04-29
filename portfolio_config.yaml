@@ -15,14 +15,18 @@ student_file: content/example_student.yaml
 # List the YAML files (inside content/projects/) you want shown.
 # Remove example projects and add your own once you're ready.
 projects:
-  - content/projects/example_project_1.yaml
-  - content/projects/example_project_2.yaml
+  - content/projects/project_1.yaml
+  - content/projects/project_2.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"
 # You can also add your own CSS file under static/css/themes/ and
 # use its name here (without the .css extension).
+<<<<<<< HEAD
 theme: pink
+=======
+theme: light
+>>>>>>> d5fbf555032ae4e32b47d19edfa687f8af4e32d1
 
 # --- Site metadata ---
 # Used in the HTML <title> tag and browser tab.
