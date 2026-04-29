@@ -1,0 +1,29 @@
+title: "Sales Data Analysis and Visualization Pipeline"
+
+image_path: "img/project3.jpg""
+
+short_summary: >
+  Built a data analysis pipeline to process sales data and generate summary statistics
+  and visualizations by region. Demonstrates data cleaning, transformation, and structured workflows.
+
+tech_stack:
+  - Python
+  - pandas
+  - seaborn
+  - matplotlib
+  - Docker
+
+problem_statement: >
+  Raw sales data is often unstructured and difficult to analyze. This project focuses on
+  transforming raw CSV datasets into meaningful insights about regional sales performance.
+
+approach: >
+  Combined multiple datasets, cleaned and structured the data, and created summary tables.
+  Added a custom metric called revenue_per_unit and generated visualizations to compare regions.
+
+results_impact: >
+  Produced clear summaries and visualizations of sales performance. The added metric provided
+  deeper insight into efficiency, showing not just total revenue but how effectively it was generated.
+
+repo_url: https://github.com/krame154/cmse492-hw01-KRAME154.git"
+

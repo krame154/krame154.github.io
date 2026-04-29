@@ -3,7 +3,7 @@ student_file: content/example_student.yaml
 projects:
   - content/projects/project_1.yaml
   - content/projects/project_2.yaml
-
+  -  content/projects/project_3.yaml
 theme: pink
 site_title: "Kayla Kramer Portfolio"
 

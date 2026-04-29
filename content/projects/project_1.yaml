@@ -1,13 +1,5 @@
-# ============================================================
-# content/projects/example_project_1.yaml
-# ============================================================
-# Example project: Predicting the Best Nap Spots on Campus
-# Copy this file to create your own project entries.
-# ============================================================
-
-
 title: "Fast Food Unhealthiness vs Popularity Analysis"
-image_path: "img/fastfood.jpg"
+
 short_summary: >
   Analyzed whether more unhealthy fast food menus are associated with higher popularity.
   Combined nutritional data with sales and store metrics to explore how health and business
@@ -17,26 +9,23 @@ tech_stack:
   - Python
   - pandas
   - matplotlib
-  - data visualization
+  - Jupyter Notebooks
 
 problem_statement: >
   Fast food is widely consumed, but it is unclear whether unhealthier menus actually
-  drive greater popularity. Many consumers choose based on convenience and branding
-  rather than nutrition. This project investigates whether chains with higher calorie,
+  drive greater popularity. This project investigates whether chains with higher calorie,
   fat, and sodium content tend to generate more revenue and market presence.
 
 approach: >
-  Merged two datasets: one containing nutritional information (calories, sugar, saturated fat,
-  trans fat, sodium) and another with business metrics (systemwide sales, average sales per unit,
-  total store count). Created a custom "unhealthy score" based on nutritional values and used
-  data visualizations to compare this score with popularity indicators across selected chains.
+  Merged nutritional data with business metrics such as systemwide sales, average sales per unit,
+  and total store count. Created a custom unhealthy score and used visualizations to compare
+  nutrition patterns with popularity indicators.
 
 results_impact: >
-  The analysis showed that there is no perfect correlation between unhealthiness and popularity,
-  but many high-performing chains have moderately high unhealthy scores. McDonald's had the
-  highest sales without being the most unhealthy, suggesting that branding, accessibility,
-  and pricing also play significant roles in success. This highlights the complexity of
-  consumer behavior beyond just nutrition.
+  The analysis showed that there was no perfect relationship between unhealthiness and popularity.
+  McDonald's had the highest sales without being the most unhealthy, suggesting that branding,
+  accessibility, and pricing also influence success.
 
-repo_url: "https://github.com/krame154/fastfoodproject.git"
-image_path: "img/placeholder_project_1.png"
+repo_url: "https://github.com/krame154/fastfoodproject"
+image_path: "img/fastfood.jpg"
+
