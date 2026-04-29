@@ -5,47 +5,34 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Spartan Football Crowd Cheer Analysis"
+title: "Cloud-Based Data Pipeline and Machine Learning with AWS"
 
 short_summary: >
-  Analyzed audio and attendance data from Spartan Stadium to understand
-  what game events drive the loudest crowd reactions. Results were used
-  to help the athletics department optimize in-game entertainment and
-  — personally — to determine the exact moments when I should run onto
-  the field for maximum dramatic effect.
+  Developed a cloud-based data workflow using AWS services to store, query, and analyze large datasets.
+  Demonstrates experience with scalable data processing and machine learning in a cloud environment.
 
 tech_stack:
+  - AWS S3
+  - AWS Athena
+  - AWS SageMaker
   - Python
-  - pandas
-  - seaborn
-  - Plotly
-  - Jupyter Notebooks
+  - SQL
 
 problem_statement: >
-  Fan energy is contagious, but it is also unpredictable. The athletics
-  department wanted to know which in-game events (touchdowns, turnovers,
-  big defensive stops, walk-up music choices) produced the biggest crowd
-  reactions — and whether the pattern differed by opponent, weather, or
-  game time. As the mascot, I had strong professional interest in this
-  question.
+  Processing large datasets locally can be inefficient and difficult to scale. This project explores how
+  cloud computing tools can be used to efficiently store, query, and analyze data while supporting
+  machine learning workflows.
 
 approach: >
-  Combined play-by-play game data with decibel readings from stadium
-  microphones across three seasons (~36 home games). Engineered features
-  for score differential, down-and-distance, quarter, temperature, and
-  opponent rank. Produced interactive Plotly dashboards that let
-  non-technical staff filter by season and event type to explore crowd
-  response patterns on their own.
+  Used AWS S3 to store datasets and organize data for analysis. Queried data using AWS Athena with SQL
+  to perform filtering, aggregation, and transformations. Prepared datasets in the required format for
+  machine learning and implemented models using AWS SageMaker, adjusting parameters and evaluating performance.
+  This created a complete cloud-based data workflow from storage to analysis and modeling.
 
 results_impact: >
-  Defensive turnovers produced the loudest average crowd response —
-  louder even than touchdowns — especially when MSU was trailing.
-  Walk-up music selections in the 3rd quarter showed a statistically
-  significant effect on cheer volume for games decided by fewer than
-  10 points. The athletics team used these findings to redesign the
-  third-quarter entertainment package for the following season. I was
-  given extra treats for my contributions.
+  Successfully demonstrated the use of AWS tools to build a scalable data pipeline. The project highlights
+  how large datasets can be efficiently processed and analyzed in the cloud, and how machine learning workflows
+  can be integrated into that pipeline. This reflects real-world data engineering and cloud computing practices.
 
-repo_url: "https://github.com/zeke-wonder-dog/spartan-cheer-analysis"
-notebook_url: "https://github.com/zeke-wonder-dog/spartan-cheer-analysis/blob/main/cheer_analysis.ipynb"
+repo_url: "https://github.com/krame154/YOUR-AWS-REPO"
 image_path: "img/placeholder_project_2.png"
